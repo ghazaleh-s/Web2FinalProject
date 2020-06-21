@@ -1,0 +1,56 @@
+@import "colors";
+@import "mixins";
+@import "nav-style";
+@import "main-menu-style";
+@import "mission";
+@import "collection";
+@import "gallery";
+@import "customer";
+@import "join";
+@import "get-in";
+
+/*general*/
+
+@font-face {
+  font-family: persian-font;
+  src: url("../fonts/B-Yagut/BYagut_0.ttf");
+}
+
+body{
+  color: $font-c;
+  font-family: persian-font,sans-serif;
+  overflow-x: hidden;
+  a{
+    transition: all 1s;
+    text-decoration: none;
+    color: $font-c;
+    &:hover{
+      text-decoration: none;
+      color: $active-c;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    padding-top: 6px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    margin-top: 30px;
+    font-size: 40px;
+  }
+
+  .headings {
+    h3 {
+      position: relative;
+      @include underline($font-c);
+      margin-bottom: 20px;
+    }
+  }
+}
+
+/*end of generel*/

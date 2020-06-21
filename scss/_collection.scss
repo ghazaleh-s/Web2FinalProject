@@ -1,0 +1,36 @@
+/*collection*/
+
+.collection{
+  background-color: $bg-light;
+  .image-effect {
+    position: relative;
+    img {
+      width: 100%;
+      box-shadow: 7px 10px 15px rgba(33, 33, 33, 0.67);
+
+      &:hover{
+        + .image-tag
+        {
+          background-color: rgb(65, 65, 65);
+          font-size: 20px;
+        }
+      }
+    }
+    .image-tag{
+      display: block;
+      width: 250px;
+      height: 24px;
+      background-color: rgba(65, 65, 65, 0.86);
+      color: $font-c;
+      line-height: 24px;
+      font-size: 10px;
+      position: absolute;
+      bottom: 35%;
+      right: 15px;
+      padding-right: 20px;
+      transition: all 2s;
+    }
+  }
+}
+
+/*end of collection*/

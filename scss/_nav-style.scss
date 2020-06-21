@@ -1,0 +1,53 @@
+/*nav-menu*/
+
+.nav-menu{
+  background-color: rgba(26, 26, 29, 0.82) !important;
+  .logo{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30px;
+    color: $font-c;
+  }
+.menu-style{
+  .active-link{
+    color: $active-c;
+    font-size: 20px;
+  }
+  .deactive-link {
+    color: $font-c;
+    font-size: 20px;
+    &:hover {
+      color: $active-c;
+    }
+  }
+}
+  a {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .navbar-toggle {
+    margin: 13px 15px 13px 0;
+  }
+}
+
+nav.navbar.shrink {
+  min-height: 35px;
+  background-color: rgba(26, 26, 29, 0.37);
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+
+
+/*end of nav-menu*/

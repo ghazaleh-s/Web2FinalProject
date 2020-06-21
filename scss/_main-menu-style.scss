@@ -1,0 +1,16 @@
+@import "colors";
+
+/*main-menu*/
+.main{
+  min-height: 100vh;
+  .main-menu{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.3)),url("../images/header-img.jpeg") center center no-repeat ;
+    background-size: cover;
+    .menu-text{
+      position: absolute;
+      top: 50%;
+      right: 10%;
+    }
+  }
+}
+/*end of main-menu*/

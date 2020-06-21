@@ -1,0 +1,30 @@
+/*join*/
+
+.join{
+  background-color: $font-c;
+  color: $f-dark;
+
+  h3 {
+    position: relative;
+    @include underline($f-dark);
+    margin-bottom: 20px;
+  }
+}
+.cards-effect{
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)),url("../images/pricing-card-bg.jpeg") center center no-repeat;
+  background-size: cover;
+  box-shadow: 5px 5px 25px #1b1e21;
+  overflow-x: hidden;
+  padding: 0;
+  .b-circle{
+    font-size: 14px;
+    text-align: center;
+    border-radius: 42px 42px;
+  }
+  p{
+    position: relative;
+    @include borders (lighten($font-c,10%));
+  }
+}
+
+/*end of join*/

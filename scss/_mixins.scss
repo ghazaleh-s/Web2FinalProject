@@ -1,0 +1,43 @@
+
+
+@mixin underline($color){
+  &::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: $color;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+}
+@mixin tags($op:60%) {
+  &::before{
+    content: "";
+    display: block;
+    width: 250px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: calc(100% + 72px);
+    left: 67%;
+    transform: translate(-50%,-67%);
+  }
+}
+
+@mixin borders($color){
+  &::before{
+    content: "";
+    display: block;
+    width: 150px;
+    height: .5px;
+    background-color: $color;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+
+}

@@ -1,0 +1,46 @@
+
+/*gallery*/
+
+.gallery{
+  background-color: $font-c;
+  color: $f-dark;
+  h3 {
+    position: relative;
+    @include underline($f-dark);
+    margin-bottom: 20px;
+  }
+  ol{
+      text-align: center;
+      list-style: none;
+      li{
+        cursor: pointer;
+        margin: 2px 10px 10px 0;
+        display: inline-block;
+        padding: 8px 8px;
+        font-size: 17px;
+        line-height: 20px;
+        color: $f-dark;
+        border-radius: 4px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      .filter-c{
+        color: $active-c;
+      }
+
+    }
+  .gal-container{
+    img{
+      transition: all 2s;
+      &:hover{
+        position: absolute;
+        z-index: 22222;
+        display: block;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+/*end of gallery*/

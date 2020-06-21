@@ -1,0 +1,31 @@
+@import "colors";
+
+/*mission*/
+
+.mission {
+  background-color: $bg-dark;
+  position: relative;
+
+  i {
+    color: $icon-c;
+  }
+  h5{
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 10px;
+    font-weight: lighter;
+    color: lighten($bg-dark,50%);
+  }
+  .pos{
+    margin-top: 100px;
+  }
+  .change-pos {
+    width: 300px;
+    overflow-x: hidden;
+  }
+}
+
+
+/*end of mission*/

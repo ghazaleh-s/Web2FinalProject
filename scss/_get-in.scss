@@ -1,0 +1,69 @@
+/*get in*/
+
+.get-in{
+  min-height: 60vh;
+  background: linear-gradient(-71deg, rgba(255, 255, 255, 0) 50%, rgba(26, 26, 29, 0.85) -1%), url("../images/form-img.jpeg") center center no-repeat;
+  background-size: cover;
+  @media (max-width: 760px) {
+    background: linear-gradient(rgba(26, 26, 29, 0.85), rgba(26, 26, 29, 0.85)), url("../images/form-img.jpeg") right center no-repeat;
+    background-size: cover;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $font-c;
+    border-radius: 0%;
+
+    &:checked {
+      background-color: transparent;
+
+    }
+
+    button {
+      font-size: 16px;
+      background-color: $icon-c;
+      width: 100%;
+    }
+  }
+
+  .fo-style {
+    background-color: $bg-light !important;
+    h5 {
+      font-size: 23px;
+      color: $font-c;
+    }
+    p {
+      font-size: 10px;
+    }
+    a{
+      font-size: 11px;
+    }
+
+
+    input{
+      background-color: white;
+    }
+    button{
+      background-color: $icon-c;
+      color: $font-c;
+      border: none;
+    }
+    i{
+      font-size: 20px;
+    }
+  }
+  .fo-bg{
+    background-color: $bg-light !important;
+    span{
+      font-family: 'Balsamiq Sans', cursive;
+      direction: ltr;
+    }
+  }
+}
+
+/*end of get in*/
